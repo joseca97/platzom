@@ -1,0 +1,30 @@
+{
+  "name": "platzom",
+  "version": "0.1.0",
+  "description": "Traductor",
+  "main": "dist/src/platzom.js",
+  "scripts": {
+    "test": "mocha",
+    "build": "babel src/platzom.js -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joseca97/platzom.git"
+  },
+  "keywords": [
+    "platzom",
+    "platzi",
+    "javascript"
+  ],
+  "author": "Joseca <arinero97@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joseca97/platzom/issues"
+  },
+  "homepage": "https://github.com/joseca97/platzom#readme",
+  "devDependencies": {
+    "babel-preset-env": "^1.6.0",
+    "chai": "^4.1.0",
+    "mocha": "^3.4.2"
+  }
+}
